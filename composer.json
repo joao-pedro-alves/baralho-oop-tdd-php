@@ -1,0 +1,15 @@
+{
+    "name": "jonaldo/poker",
+    "authors": [
+        {
+            "name": "João Pedro Alves",
+            "email": "joaopedroalv9@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {}
+}
