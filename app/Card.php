@@ -53,11 +53,11 @@ class Card
 
 	public function __construct($value = null, $suit = null)
 	{
-		if ($value) {
+		if ($suit) {
 			$this->setSuit($suit);
 		}
 
-		if ($suit) {
+		if ($value) {
 			$this->setValue($value);
 		}
 	}
